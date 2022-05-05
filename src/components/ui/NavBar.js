@@ -25,6 +25,12 @@ export const Navbar = () => {
           <NavLink to="/dc" className="nav-item nav-link">
             DC
           </NavLink>
+
+          <NavLink to="/search" className="nav-item nav-link" onClick={handleLogout}>
+            Search
+          </NavLink>
+
+
         </div>
       </div>
 
