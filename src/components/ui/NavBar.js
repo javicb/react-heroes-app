@@ -37,7 +37,7 @@ export const Navbar = () => {
             DC
           </NavLink>
 
-          <NavLink to="/search" className="nav-item nav-link" onClick={handleLogout}>
+          <NavLink to="/search" className="nav-item nav-link">
             Search
           </NavLink>
 
